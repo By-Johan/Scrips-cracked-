@@ -17,7 +17,7 @@ task.spawn(function()
     sky.Name = "JX7_CustomSky"
 
     -- 🖼️ ID de la imagen de fondo (cambiá aquí si querés otro)
-    local id = "rbxassetid://107408690705422"
+    local id = "rbxassetid://42831647344100"
 
     sky.SkyboxBk = id
     sky.SkyboxDn = id
