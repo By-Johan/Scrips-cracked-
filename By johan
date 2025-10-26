@@ -14,7 +14,7 @@ task.spawn(function()
 
     -- Crear nuevo cielo personalizado
     local sky = Instance.new("Sky")
-    sky.Name = "HZ_CustomSky"
+    sky.Name = "JX7_CustomSky"
 
     -- 🖼️ ID de la imagen de fondo (cambiá aquí si querés otro)
     local id = "rbxassetid://107408690705422"
@@ -42,8 +42,8 @@ end)
 local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/IJNTJNNPTJ/farm/refs/heads/main/.ODlib", true))()
 
 -- 🪟 Crear ventana principal
-local window = library:AddWindow("OMEGADEZZ HUB | Secret SCRIPT - Cracked By Johan", {
-    main_color = Color3.fromRGB(120, 0, 0), -- rojo oscuro
+local window = library:AddWindow("INFERNO HUB PAID V3 | BY JOHAN", {
+    main_color = Color3.fromRGB(0, 0, 255), -- rojo oscuro
     min_size = Vector2.new(444, 470),
     can_minimize = true
 })
@@ -53,7 +53,7 @@ local window = library:AddWindow("OMEGADEZZ HUB | Secret SCRIPT - Cracked By Joh
 -----------------------------------------------------
 
 local farmTab = window:AddTab("Rock")
-farmTab:AddLabel("HonnyDezz es tu papi, Farmea duro, Mmm bien duro")
+farmTab:AddLabel("Johan es tu papi, Farmea duro, Mmm bien duro")
  
 local function gettool()
     for i, v in pairs(game.Players.LocalPlayer.Backpack:GetChildren()) do
@@ -1425,11 +1425,11 @@ end)
 
 emoteTab:AddLabel("━━━━━━━ Aqui puedes elegir tu TAG ━━━━━━━").TextSize = 17
 
--- 🌈 TAG ARCOÍRIS - HonnyDezz
+-- 🌈 TAG ARCOÍRIS - INFERNO🔥👑
 local Players = game:GetService("Players")
 local player = Players.LocalPlayer
 
-local currentTagText = "HonnyDezz"
+local currentTagText = "INFERNO🔥👑"
 
 -- 🧠 Función para crear o actualizar el tag
 local function createOrUpdateTag(char)
@@ -1479,32 +1479,32 @@ player.CharacterAdded:Connect(createOrUpdateTag)
 if player.Character then createOrUpdateTag(player.Character) end
 
 
-emoteTab:AddButton("🔥 Clan HZ", function()
-    currentTagText = "🔥 Clan HZ 🔥"
+emoteTab:AddButton("🔥 Clan JX7", function()
+    currentTagText = "🔥 Clan JX7 🔥"
     currentTagColor = Color3.fromRGB(255, 70, 70)
     createOrUpdateTag(player.Character)
-    library:Notification("✅ Tag aplicado: Clan HZ")
+    library:Notification("✅ Tag aplicado: Clan JX7")
 end)
 
 emoteTab:AddButton("🔥 Team Honny", function()
-    currentTagText = "🔥 Team Honny 🔥"
+    currentTagText = "🔥 Team Johan 🔥"
     currentTagColor = Color3.fromRGB(255, 70, 70)
     createOrUpdateTag(player.Character)
-    library:Notification("✅ Tag aplicado: Team Honny")
+    library:Notification("✅ Tag aplicado: Team Johan")
 end)
 
-emoteTab:AddButton("👑 HZ Top", function()
-    currentTagText = "👑 HZ Top 👑"
+emoteTab:AddButton("👑 JX7 Top", function()
+    currentTagText = "👑 JX7 Top 👑"
     currentTagColor = Color3.fromRGB(255, 255, 0)
     createOrUpdateTag(player.Character)
-    library:Notification("✅ Tag aplicado: HZ Top")
+    library:Notification("✅ Tag aplicado: HZ JX7")
 end)
 
-emoteTab:AddButton("⚡ Somos DEZZ", function()
-    currentTagText = "⚡ Somos DEZZ ⚡"
+emoteTab:AddButton("⚡ Somos JX7", function()
+    currentTagText = "⚡ Somos Jx7 ⚡"
     currentTagColor = Color3.fromRGB(140, 0, 255)
     createOrUpdateTag(player.Character)
-    library:Notification("✅ Tag aplicado: Somos DEZZ")
+    library:Notification("✅ Tag aplicado: Somos JX7")
 end)
 
 emoteTab:AddLabel("━━━━━━━ Aqui puedes eliminar tu TAG ━━━━━━━").TextSize = 17
@@ -2482,7 +2482,7 @@ farm:AddLabel("Farm")
 
 local credits = window:AddTab("Credits")
 
-credits:AddLabel("Deobfuscated By Alejandro")
+credits:AddLabel("Scrip JX7 Publico")
 
 
 
