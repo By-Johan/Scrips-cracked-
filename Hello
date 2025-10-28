@@ -12,12 +12,9 @@ end
 
 Player.Idled:Connect(preventAFK)
 
-
-
 local library = loadstring(game:HttpGet("https://gitea.com/157fl/blabla/raw/branch/main/blabla.lua", true))()
 
-
-local window = library:AddWindow("OMEGADEZZ HUB | PAID Ultra Premiun / By Johan"..display, {
+local window = library:AddWindow("OMEGADEZZ HUB | By Johan"..display, {
     main_color = Color3.fromRGB(255, 119, 0),
     min_size = Vector2.new(710, 780),
     can_resize = true,
