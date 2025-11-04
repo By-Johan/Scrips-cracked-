@@ -1,4 +1,4 @@
-local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/EpicDeevv/Private-Scripts/refs/heads/main/th5j6j5j5j", true))()
+local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/By-Johan/Library-by-Johan/refs/heads/main/Totatkk"))()
 
 local window = library:AddWindow("Project V1", {
     main_color = Color3.fromRGB(193, 0, 230),
